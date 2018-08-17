@@ -1,0 +1,22 @@
+{
+  "name": "promekoa",
+  "version": "0.0.1",
+  "description": "Instrument Koa app to Prometheus",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "prometheus",
+    "metrics",
+    "koa"
+  ],
+  "dependencies": {
+    "prom-client": "9.1.1"
+  },
+  "engines": {
+    "node": ">=7.0.0"
+  },
+  "author": "Leonel Morais",
+  "license": "ISC"
+}
