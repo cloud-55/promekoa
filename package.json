@@ -1,6 +1,6 @@
 {
   "name": "promekoa",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Instrument Koa app to Prometheus",
   "main": "index.js",
   "scripts": {
@@ -11,6 +11,10 @@
     "metrics",
     "koa"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lmorais/promekoa.git"
+  },
   "dependencies": {
     "prom-client": "9.1.1"
   },
